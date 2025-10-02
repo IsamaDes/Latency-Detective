@@ -1,0 +1,12 @@
+{
+  "name": "latency-detective",
+  "version": "1.0.0",
+  "main": "App.js",
+  "scripts": {
+    "start": "node App.js"
+  },
+  "dependencies": {
+    "autocannon": "^8.0.0",
+    "express": "^5.1.0"
+  }
+}
