@@ -1,6 +1,7 @@
 {
   "name": "latency-detective",
   "version": "1.0.0",
+  "type": "module",
   "main": "App.js",
   "scripts": {
     "start": "node App.js"
@@ -8,5 +9,11 @@
   "dependencies": {
     "autocannon": "^8.0.0",
     "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
   }
 }
